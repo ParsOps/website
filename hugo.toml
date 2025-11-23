@@ -1,0 +1,4 @@
+baseURL = 'https://parsops.com/'
+languageCode = 'en-us'
+title = 'ParsOps — DevOps as a Service. Simplified.'
+theme = 'parsops'
