@@ -1,0 +1,146 @@
+[home]
+other = "خانه"
+
+[services]
+other = "خدمات"
+
+[how_it_works]
+other = "نحوه کار"
+
+[testimonials]
+other = "نظرات مشتریان"
+
+[get_started]
+other = "شروع کنید"
+
+[hero_title]
+other = "پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده."
+
+[hero_subtitle]
+other = "زیرساخت خود را با تخصص ابری چندگانه، خودکار و قابل اعتماد تسریع کنید. دواپس سازمانی بدون هزینه‌های اضافی."
+
+[launch_infrastructure]
+other = "راه‌اندازی زیرساخت"
+
+[book_consultation]
+other = "رزرو مشاوره"
+
+[expert_tech]
+other = "متخصص در فناوری‌های سازمانی"
+
+[enterprise_services]
+other = "خدمات دواپس سازمانی"
+
+[comprehensive_solutions]
+other = "راه‌حل‌های جامع ابری-بومی متناسب با نیازهای کسب‌وکار شما"
+
+[k8s_service]
+other = "کوبرنتیز به‌عنوان سرویس"
+
+[k8s_desc]
+other = "کلاسترهای کوبرنتیز آماده تولید با امنیت سازمانی و مقیاس‌پذیری خودکار"
+
+[devops_consulting]
+other = "مشاوره دواپس"
+
+[devops_consulting_desc]
+other = "راهنمایی استراتژیک برای تغییر زیرساخت و خط لوله تحویل شما"
+
+[cicd_automation]
+other = "خودکارسازی CI/CD"
+
+[cicd_desc]
+other = "خطوط لوله استقرار ساده شده با انتشار بدون توقف"
+
+[cloud_management]
+other = "مدیریت ابر"
+
+[cloud_desc]
+other = "هماهنگی چند ابری با بهینه‌سازی هزینه و حاکمیت"
+
+[monitoring]
+other = "نظارت و مشاهده‌پذیری"
+
+[monitoring_desc]
+other = "بینش لحظه‌ای با معیارها، لاگ‌ها و ردیابی جامع"
+
+[security]
+other = "امنیت و سخت‌سازی"
+
+[security_desc]
+other = "امنیت سازمانی با مدیریت انطباق و آسیب‌پذیری"
+
+[how_parsops_works]
+other = "نحوه کار پارس‌آپس"
+
+[streamlined_approach]
+other = "رویکردی ساده برای ساخت زیرساخت سطح جهانی"
+
+[assessment]
+other = "ارزیابی"
+
+[assessment_desc]
+other = "ما زیرساخت فعلی شما را تحلیل می‌کنیم، گلوگاه‌ها را شناسایی می‌کنیم و نقشه راه متناسب طراحی می‌کنیم"
+
+[deployment]
+other = "استقرار"
+
+[deployment_desc]
+other = "تأمین و پیکربندی خودکار زیرساخت ابری-بومی شما"
+
+[continuous_management]
+other = "مدیریت مداوم"
+
+[continuous_desc]
+other = "نظارت، بهینه‌سازی و پشتیبانی ۲۴/۷ برای اطمینان از اجرای بی‌نقص سیستم‌های شما"
+
+[enterprise_architecture]
+other = "معماری سازمانی"
+
+[multi_tenant]
+other = "کوبرنتیز امن چند مستأجره"
+
+[multi_tenant_desc]
+other = "ساخته شده بر روی پشته فناوری پیشرفته با جداسازی شبکه سازمانی. پلتفرم ما از Cilium و eBPF برای امنیت و عملکرد بی‌سابقه استفاده می‌کند و از بارهای کاری شما با شبکه اعتماد صفر محافظت می‌کند."
+
+[workload_isolation]
+other = "جداسازی کامل بار کاری با سیاست‌های شبکه"
+
+[ebpf_security]
+other = "امنیت و مشاهده‌پذیری مبتنی بر eBPF"
+
+[automated_compliance]
+other = "اسکن خودکار انطباق و امنیت"
+
+[learn_more]
+other = "بیشتر بدانید"
+
+[trusted_leaders]
+other = "مورد اعتماد رهبران نوآوری"
+
+[client_feedback]
+other = "ببینید مشتریان ما درباره کار با پارس‌آپس چه می‌گویند"
+
+[build_together]
+other = "بیایید زیرساخت شما را با هم بسازیم"
+
+[ready_transform]
+other = "آماده تغییر گردش کار دواپس خود هستید؟ امروز با متخصصان ما مشاوره رزرو کنید."
+
+[get_started_now]
+other = "همین حالا شروع کنید"
+
+[explore_services]
+other = "خدمات را کاوش کنید"
+
+[company]
+other = "شرکت"
+
+[connect]
+other = "ارتباط"
+
+[contact_email]
+other = "contact@parsops.com"
+
+[copyright]
+other = "© ۲۰۲۵ پارس‌آپس. با عشق ساخته شده توسط تیم پارس‌آپس."

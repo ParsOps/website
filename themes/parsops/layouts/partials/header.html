@@ -1,2 +1,9 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<div class="header-container">
+  <div class="header-left">
+    <h1>{{ site.Title }}</h1>
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
+  <div class="header-right">
+    {{ partial "language-switcher.html" . }}
+  </div>
+</div>

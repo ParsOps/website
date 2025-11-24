@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,14 +15,40 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-content">
-                <div class="logo">
+                <div class="nav-logo">
                     <img src="{{ "logo.png" | relURL }}" alt="ParsOps" style="height: 40px; width: auto;">
                 </div>
-                <div class="nav-links">
-                    <a href="#services">Services</a>
-                    <a href="#how-it-works">How It Works</a>
-                    <a href="#testimonials">Testimonials</a>
-                    <a href="#contact" class="btn-nav">Get Started</a>
+                <div class="nav-menu">
+                    <a href="#services">{{ i18n "services" }}</a>
+                    <a href="#how-it-works">{{ i18n "how_it_works" }}</a>
+                    <a href="#testimonials">{{ i18n "testimonials" }}</a>
+                    <a href="#contact" class="btn-nav">{{ i18n "get_started" }}</a>
+                </div>
+                <div class="nav-language">
+                  {{- range site.Languages }}
+                    {{- $isCurrent := eq $.Language.Lang .Lang }}
+                    {{- $url := "" }}
+                    {{- if $isCurrent }}
+                      {{- $url = $.RelPermalink }}
+                    {{- else }}
+                      {{- if $.IsTranslated }}
+                        {{- range $.Translations }}
+                          {{- if eq .Language.Lang .Lang }}
+                            {{- $url = .Permalink }}
+                          {{- end }}
+                        {{- end }}
+                      {{- end }}
+                      {{- if eq $url "" }}
+                        {{- $url = .Lang | relLangURL }}
+                      {{- end }}
+                    {{- end }}
+                    <a href="{{ $url }}" 
+                       lang="{{ .Lang }}" 
+                       class="language-link{{ if $isCurrent }} active{{ end }}" 
+                       title="{{ .LanguageName }}">
+                      {{- if eq .Lang "en" }}🇬🇧{{- else if eq .Lang "fa" }}🇮🇷{{- end }}
+                    </a>
+                  {{- end }}
                 </div>
             </div>
         </div>
@@ -33,14 +59,13 @@
         <div class="hero-background"></div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">ParsOps — DevOps as a Service. Simplified.</h1>
+                <h1 class="hero-title">{{ i18n "hero_title" }}</h1>
                 <p class="hero-subtitle">
-                    Accelerate your infrastructure with automated, reliable, and multi-cloud expertise. 
-                    Enterprise-grade DevOps without the overhead.
+                    {{ i18n "hero_subtitle" }}
                 </p>
                 <div class="hero-cta">
-                    <a href="#contact" class="btn btn-primary">Launch Your Infrastructure</a>
-                    <a href="#contact" class="btn btn-secondary">Book Consultation</a>
+                    <a href="#contact" class="btn btn-primary">{{ i18n "launch_infrastructure" }}</a>
+                    <a href="#contact" class="btn btn-secondary">{{ i18n "book_consultation" }}</a>
                 </div>
             </div>
         </div>
@@ -54,7 +79,7 @@
     <!-- Trusted Technologies -->
     <section class="technologies">
         <div class="container">
-            <p class="section-label">Expert in Production-Grade Technologies</p>
+            <p class="section-label">{{ i18n "expert_tech" }}</p>
             <div class="tech-grid">
                 <div class="tech-logo">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,9 +144,9 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Enterprise DevOps Services</h2>
+                <h2 class="section-title">{{ i18n "enterprise_services" }}</h2>
                 <p class="section-description">
-                    Comprehensive cloud-native solutions tailored to your business needs
+                    {{ i18n "comprehensive_solutions" }}
                 </p>
             </div>
             <div class="services-grid">
@@ -134,9 +159,9 @@
                             <path d="M35 12.5L5 27.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Kubernetes-as-a-Service</h3>
+                    <h3 class="service-title">{{ i18n "k8s_service" }}</h3>
                     <p class="service-description">
-                        Production-ready K8s clusters with enterprise security and automated scaling
+                        {{ i18n "k8s_desc" }}
                     </p>
                 </div>
 
@@ -147,9 +172,9 @@
                             <path d="M20 5V20L28 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">DevOps Consulting</h3>
+                    <h3 class="service-title">{{ i18n "devops_consulting" }}</h3>
                     <p class="service-description">
-                        Strategic guidance to transform your infrastructure and delivery pipeline
+                        {{ i18n "devops_consulting_desc" }}
                     </p>
                 </div>
 
@@ -163,9 +188,9 @@
                             <circle cx="20" cy="30" r="3" fill="currentColor"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">CI/CD Automation</h3>
+                    <h3 class="service-title">{{ i18n "cicd_automation" }}</h3>
                     <p class="service-description">
-                        Streamlined deployment pipelines with zero-downtime releases
+                        {{ i18n "cicd_desc" }}
                     </p>
                 </div>
 
@@ -177,9 +202,9 @@
                             <path d="M20 22V32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Cloud Management</h3>
+                    <h3 class="service-title">{{ i18n "cloud_management" }}</h3>
                     <p class="service-description">
-                        Multi-cloud orchestration with cost optimization and governance
+                        {{ i18n "cloud_desc" }}
                     </p>
                 </div>
 
@@ -190,9 +215,9 @@
                             <path d="M12 18L17 23L28 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Monitoring & Observability</h3>
+                    <h3 class="service-title">{{ i18n "monitoring" }}</h3>
                     <p class="service-description">
-                        Real-time insights with comprehensive metrics, logs, and tracing
+                        {{ i18n "monitoring_desc" }}
                     </p>
                 </div>
 
@@ -203,9 +228,9 @@
                             <path d="M20 14V20L24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Security & Hardening</h3>
+                    <h3 class="service-title">{{ i18n "security" }}</h3>
                     <p class="service-description">
-                        Enterprise-grade security with compliance and vulnerability management
+                        {{ i18n "security_desc" }}
                     </p>
                 </div>
             </div>
@@ -216,18 +241,18 @@
     <section id="how-it-works" class="workflow">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">How ParsOps Works</h2>
+                <h2 class="section-title">{{ i18n "how_parsops_works" }}</h2>
                 <p class="section-description">
-                    A streamlined approach to building world-class infrastructure
+                    {{ i18n "streamlined_approach" }}
                 </p>
             </div>
             <div class="workflow-steps">
                 <div class="workflow-step" data-aos="fade-right">
                     <div class="step-number">01</div>
                     <div class="step-content">
-                        <h3 class="step-title">Assessment</h3>
+                        <h3 class="step-title">{{ i18n "assessment" }}</h3>
                         <p class="step-description">
-                            We analyze your current infrastructure, identify bottlenecks, and design a tailored roadmap
+                            {{ i18n "assessment_desc" }}
                         </p>
                     </div>
                 </div>
@@ -235,9 +260,9 @@
                 <div class="workflow-step" data-aos="fade-right" data-aos-delay="200">
                     <div class="step-number">02</div>
                     <div class="step-content">
-                        <h3 class="step-title">Deployment</h3>
+                        <h3 class="step-title">{{ i18n "deployment" }}</h3>
                         <p class="step-description">
-                            Automated provisioning and configuration of your cloud-native infrastructure
+                            {{ i18n "deployment_desc" }}
                         </p>
                     </div>
                 </div>
@@ -245,9 +270,9 @@
                 <div class="workflow-step" data-aos="fade-right" data-aos-delay="400">
                     <div class="step-number">03</div>
                     <div class="step-content">
-                        <h3 class="step-title">Continuous Management</h3>
+                        <h3 class="step-title">{{ i18n "continuous_management" }}</h3>
                         <p class="step-description">
-                            24/7 monitoring, optimization, and support to keep your systems running flawlessly
+                            {{ i18n "continuous_desc" }}
                         </p>
                     </div>
                 </div>
@@ -260,12 +285,10 @@
         <div class="container">
             <div class="featured-content">
                 <div class="featured-text" data-aos="fade-right">
-                    <span class="featured-label">Enterprise-Grade Architecture</span>
-                    <h2 class="featured-title">Multi-Tenant Secure Kubernetes</h2>
+                    <span class="featured-label">{{ i18n "enterprise_architecture" }}</span>
+                    <h2 class="featured-title">{{ i18n "multi_tenant" }}</h2>
                     <p class="featured-description">
-                        Built on cutting-edge technology stack with enterprise-grade network isolation. 
-                        Our platform leverages Cilium and eBPF for unprecedented security and performance, 
-                        ensuring your workloads are protected with zero-trust networking.
+                        {{ i18n "multi_tenant_desc" }}
                     </p>
                     <ul class="featured-list">
                         <li>
@@ -273,24 +296,24 @@
                                 <circle cx="10" cy="10" r="9" stroke="#00C2D1" stroke-width="2"/>
                                 <path d="M6 10L9 13L14 7" stroke="#00C2D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            Complete workload isolation with network policies
+                            {{ i18n "workload_isolation" }}
                         </li>
                         <li>
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <circle cx="10" cy="10" r="9" stroke="#00C2D1" stroke-width="2"/>
                                 <path d="M6 10L9 13L14 7" stroke="#00C2D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            eBPF-powered security and observability
+                            {{ i18n "ebpf_security" }}
                         </li>
                         <li>
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <circle cx="10" cy="10" r="9" stroke="#00C2D1" stroke-width="2"/>
                                 <path d="M6 10L9 13L14 7" stroke="#00C2D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            Automated compliance and security scanning
+                            {{ i18n "automated_compliance" }}
                         </li>
                     </ul>
-                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-primary">{{ i18n "learn_more" }}</a>
                 </div>
                 <div class="featured-visual" data-aos="fade-left">
                     <div class="visual-container">
@@ -307,9 +330,9 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Trusted by Innovation Leaders</h2>
+                <h2 class="section-title">{{ i18n "trusted_leaders" }}</h2>
                 <p class="section-description">
-                    See what our clients say about working with ParsOps
+                    {{ i18n "client_feedback" }}
                 </p>
             </div>
             <div class="testimonials-slider">
@@ -379,13 +402,13 @@
     <section id="contact" class="cta">
         <div class="container">
             <div class="cta-content" data-aos="zoom-in">
-                <h2 class="cta-title">Let's build your infrastructure together</h2>
+                <h2 class="cta-title">{{ i18n "build_together" }}</h2>
                 <p class="cta-description">
-                    Ready to transform your DevOps workflow? Schedule a consultation with our experts today.
+                    {{ i18n "ready_transform" }}
                 </p>
                 <div class="cta-buttons">
-                    <a href="mailto:contact@parsops.com" class="btn btn-primary-large">Get Started Now</a>
-                    <a href="#services" class="btn btn-secondary-large">Explore Services</a>
+                    <a href="mailto:contact@parsops.com" class="btn btn-primary-large">{{ i18n "get_started_now" }}</a>
+                    <a href="#services" class="btn btn-secondary-large">{{ i18n "explore_services" }}</a>
                 </div>
             </div>
         </div>
@@ -402,26 +425,26 @@
                     <p class="footer-tagline">DevOps as a Service. Simplified.</p>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Services</h4>
+                    <h4 class="footer-title">{{ i18n "services" }}</h4>
                     <ul class="footer-links">
-                        <li><a href="#services">Kubernetes-as-a-Service</a></li>
-                        <li><a href="#services">DevOps Consulting</a></li>
-                        <li><a href="#services">CI/CD Automation</a></li>
-                        <li><a href="#services">Cloud Management</a></li>
+                        <li><a href="#services">{{ i18n "k8s_service" }}</a></li>
+                        <li><a href="#services">{{ i18n "devops_consulting" }}</a></li>
+                        <li><a href="#services">{{ i18n "cicd_automation" }}</a></li>
+                        <li><a href="#services">{{ i18n "cloud_management" }}</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Company</h4>
+                    <h4 class="footer-title">{{ i18n "company" }}</h4>
                     <ul class="footer-links">
-                        <li><a href="#how-it-works">How It Works</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#how-it-works">{{ i18n "how_it_works" }}</a></li>
+                        <li><a href="#testimonials">{{ i18n "testimonials" }}</a></li>
+                        <li><a href="#contact">{{ i18n "get_started" }}</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-title">Connect</h4>
+                    <h4 class="footer-title">{{ i18n "connect" }}</h4>
                     <ul class="footer-links">
-                        <li><a href="mailto:contact@parsops.com">contact@parsops.com</a></li>
+                        <li><a href="mailto:contact@parsops.com">{{ i18n "contact_email" }}</a></li>
                         <li><a href="#">LinkedIn</a></li>
                         <li><a href="#">GitHub</a></li>
                     </ul>
@@ -429,7 +452,7 @@
             </div>
             <div class="footer-bottom">
                 <p class="footer-copyright">
-                    © 2025 ParsOps. Built with love by ParsOps team.
+                    {{ i18n "copyright" }}
                 </p>
             </div>
         </div>

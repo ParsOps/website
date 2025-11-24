@@ -1,0 +1,146 @@
+[home]
+other = "Home"
+
+[services]
+other = "Services"
+
+[how_it_works]
+other = "How It Works"
+
+[testimonials]
+other = "Testimonials"
+
+[get_started]
+other = "Get Started"
+
+[hero_title]
+other = "ParsOps — DevOps as a Service. Simplified."
+
+[hero_subtitle]
+other = "Accelerate your infrastructure with automated, reliable, and multi-cloud expertise. Enterprise-grade DevOps without the overhead."
+
+[launch_infrastructure]
+other = "Launch Your Infrastructure"
+
+[book_consultation]
+other = "Book Consultation"
+
+[expert_tech]
+other = "Expert in Production-Grade Technologies"
+
+[enterprise_services]
+other = "Enterprise DevOps Services"
+
+[comprehensive_solutions]
+other = "Comprehensive cloud-native solutions tailored to your business needs"
+
+[k8s_service]
+other = "Kubernetes-as-a-Service"
+
+[k8s_desc]
+other = "Production-ready K8s clusters with enterprise security and automated scaling"
+
+[devops_consulting]
+other = "DevOps Consulting"
+
+[devops_consulting_desc]
+other = "Strategic guidance to transform your infrastructure and delivery pipeline"
+
+[cicd_automation]
+other = "CI/CD Automation"
+
+[cicd_desc]
+other = "Streamlined deployment pipelines with zero-downtime releases"
+
+[cloud_management]
+other = "Cloud Management"
+
+[cloud_desc]
+other = "Multi-cloud orchestration with cost optimization and governance"
+
+[monitoring]
+other = "Monitoring & Observability"
+
+[monitoring_desc]
+other = "Real-time insights with comprehensive metrics, logs, and tracing"
+
+[security]
+other = "Security & Hardening"
+
+[security_desc]
+other = "Enterprise-grade security with compliance and vulnerability management"
+
+[how_parsops_works]
+other = "How ParsOps Works"
+
+[streamlined_approach]
+other = "A streamlined approach to building world-class infrastructure"
+
+[assessment]
+other = "Assessment"
+
+[assessment_desc]
+other = "We analyze your current infrastructure, identify bottlenecks, and design a tailored roadmap"
+
+[deployment]
+other = "Deployment"
+
+[deployment_desc]
+other = "Automated provisioning and configuration of your cloud-native infrastructure"
+
+[continuous_management]
+other = "Continuous Management"
+
+[continuous_desc]
+other = "24/7 monitoring, optimization, and support to keep your systems running flawlessly"
+
+[enterprise_architecture]
+other = "Enterprise-Grade Architecture"
+
+[multi_tenant]
+other = "Multi-Tenant Secure Kubernetes"
+
+[multi_tenant_desc]
+other = "Built on cutting-edge technology stack with enterprise-grade network isolation. Our platform leverages Cilium and eBPF for unprecedented security and performance, ensuring your workloads are protected with zero-trust networking."
+
+[workload_isolation]
+other = "Complete workload isolation with network policies"
+
+[ebpf_security]
+other = "eBPF-powered security and observability"
+
+[automated_compliance]
+other = "Automated compliance and security scanning"
+
+[learn_more]
+other = "Learn More"
+
+[trusted_leaders]
+other = "Trusted by Innovation Leaders"
+
+[client_feedback]
+other = "See what our clients say about working with ParsOps"
+
+[build_together]
+other = "Let's build your infrastructure together"
+
+[ready_transform]
+other = "Ready to transform your DevOps workflow? Schedule a consultation with our experts today."
+
+[get_started_now]
+other = "Get Started Now"
+
+[explore_services]
+other = "Explore Services"
+
+[company]
+other = "Company"
+
+[connect]
+other = "Connect"
+
+[contact_email]
+other = "contact@parsops.com"
+
+[copyright]
+other = "© 2025 ParsOps. Built with love by ParsOps team."

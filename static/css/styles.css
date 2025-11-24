@@ -57,9 +57,20 @@ body {
 
 .nav-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1.25rem 0;
+    gap: 0;
+}
+
+/* Logo Section */
+.nav-logo {
+    flex-shrink: 0;
+    margin-right: 12rem;
+}
+
+[dir="rtl"] .nav-logo {
+    margin-right: 0;
+    margin-left: 12rem;
 }
 
 .logo-text {
@@ -69,21 +80,30 @@ body {
     letter-spacing: -0.02em;
 }
 
-.nav-links {
+/* Navigation Menu */
+.nav-menu {
     display: flex;
     gap: 2.5rem;
     align-items: center;
+    flex: 1;
+    margin-right: 16rem;
 }
 
-.nav-links a {
+[dir="rtl"] .nav-menu {
+    margin-right: 0;
+    margin-left: 16rem;
+}
+
+.nav-menu a {
     text-decoration: none;
     color: var(--gray-700);
     font-weight: 500;
     font-size: 0.95rem;
     transition: color 0.3s ease;
+    white-space: nowrap;
 }
 
-.nav-links a:hover {
+.nav-menu a:hover {
     color: var(--cyan);
 }
 
@@ -100,6 +120,53 @@ body {
     background: var(--light-cyan);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 194, 209, 0.3);
+}
+
+/* Language Switcher Section */
+.nav-language {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: auto;
+    padding-left: 2rem;
+    border-left: 1px solid var(--gray-200);
+}
+
+[dir="rtl"] .nav-language {
+    margin-left: auto;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 2rem;
+    border-left: none;
+    border-right: 1px solid var(--gray-200);
+}
+
+.language-link {
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-color: var(--gray-100);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.language-link:hover {
+    background-color: var(--gray-200);
+    border-color: var(--cyan);
+    transform: scale(1.1);
+}
+
+.language-link.active {
+    background-color: var(--cyan);
+    border-color: var(--cyan);
+    box-shadow: 0 2px 8px rgba(0, 194, 209, 0.3);
 }
 
 /* ==========================================

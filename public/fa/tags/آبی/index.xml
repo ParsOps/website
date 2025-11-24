@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>آبی on پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده.</title>
+    <link>http://localhost:1313/fa/tags/%D8%A2%D8%A8%DB%8C/</link>
+    <description>Recent content in آبی on پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده.</description>
+    <generator>Hugo</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/fa/tags/%D8%A2%D8%A8%DB%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>نوشته سوم</title>
+      <link>http://localhost:1313/fa/posts/post-3/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/fa/posts/post-3/</guid>
+      <description>این نوشته درباره امنیت در دواپس است. امنیت یکی از مهم‌ترین موضوعات در مدیریت سرویس‌ها است. شما باید از اطلاعات و سیستم‌های خود محافظت کنید تا مشکلی پیش نیاید.&#xA;ما در پارس‌آپس به امنیت اهمیت زیادی می‌دهیم. تیم ما از بهترین روش‌ها استفاده می‌کند تا سیستم شما امن باشد. ما به صورت منظم سیستم را بررسی می‌کنیم و مشکلات امنیتی را برطرف می‌کنیم.&#xA;با استفاده از روش‌های صحیح امنیتی، می‌توانید خیالتان راحت باشد که سیستم شما در امان است.</description>
+    </item>
+  </channel>
+</rss>

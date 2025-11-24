@@ -1,0 +1,26 @@
+<div class="language-switcher">
+  {{- range site.Languages }}
+    {{- $isCurrent := eq $.Language.Lang .Lang }}
+    {{- $url := "" }}
+    {{- if $isCurrent }}
+      {{- $url = $.RelPermalink }}
+    {{- else }}
+      {{- if $.IsTranslated }}
+        {{- range $.Translations }}
+          {{- if eq .Language.Lang .Lang }}
+            {{- $url = .Permalink }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+      {{- if eq $url "" }}
+        {{- $url = .Lang | relLangURL }}
+      {{- end }}
+    {{- end }}
+    <a href="{{ $url }}" 
+       lang="{{ .Lang }}" 
+       class="language-link{{ if $isCurrent }} active{{ end }}" 
+       title="{{ .LanguageName }}">
+      {{- if eq .Lang "en" }}🇬🇧{{- else if eq .Lang "fa" }}🇮🇷{{- end }}
+    </a>
+  {{- end }}
+</div>
