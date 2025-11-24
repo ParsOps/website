@@ -2,34 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/blue/</loc>
+    <loc>http://localhost:1313/de/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="http://localhost:1313/de/tags/blue/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/tags/blue/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/tags/green/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="http://localhost:1313/de/tags/green/"
+                href="http://localhost:1313/de/tags/blue/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/de/tags/green/</loc>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/tags/green/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/tags/green/"
+                />
   </url><url>
-    <loc>http://localhost:1313/posts/post-3/</loc>
+    <loc>http://localhost:1313/de/posts/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/post-3/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa-IR"
@@ -40,27 +45,27 @@
                 hreflang="de-DE"
                 href="http://localhost:1313/de/posts/post-3/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/post-3/"
-                />
   </url><url>
-    <loc>http://localhost:1313/tags/red/</loc>
+    <loc>http://localhost:1313/de/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="http://localhost:1313/de/tags/red/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/tags/red/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/tags/red/"
+                />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/de/tags/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa-IR"
@@ -71,14 +76,14 @@
                 hreflang="de-DE"
                 href="http://localhost:1313/de/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/de/posts/post-2/</loc>
+    <lastmod>2023-02-15T10:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/posts/post-2/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/posts/post-2/</loc>
-    <lastmod>2023-02-15T10:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa-IR"
@@ -89,14 +94,14 @@
                 hreflang="de-DE"
                 href="http://localhost:1313/de/posts/post-2/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/de/posts/post-1/</loc>
+    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/posts/post-2/"
+                href="http://localhost:1313/posts/post-1/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/posts/post-1/</loc>
-    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa-IR"
@@ -107,14 +112,14 @@
                 hreflang="de-DE"
                 href="http://localhost:1313/de/posts/post-1/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/de/posts/</loc>
+    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/posts/post-1/"
+                href="http://localhost:1313/posts/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa-IR"
@@ -125,14 +130,14 @@
                 hreflang="de-DE"
                 href="http://localhost:1313/de/posts/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/de/</loc>
+    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/posts/"
+                href="http://localhost:1313/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa-IR"
@@ -143,13 +148,13 @@
                 hreflang="de-DE"
                 href="http://localhost:1313/de/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/categories/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa-IR"
@@ -159,11 +164,6 @@
                 rel="alternate"
                 hreflang="de-DE"
                 href="http://localhost:1313/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/categories/"
                 />
   </url>
 </urlset>

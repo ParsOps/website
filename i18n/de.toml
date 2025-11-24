@@ -1,0 +1,146 @@
+[home]
+other = "Startseite"
+
+[services]
+other = "Dienstleistungen"
+
+[how_it_works]
+other = "Wie es funktioniert"
+
+[testimonials]
+other = "Kundenstimmen"
+
+[get_started]
+other = "Loslegen"
+
+[hero_title]
+other = "ParsOps — DevOps als Service. Vereinfacht."
+
+[hero_subtitle]
+other = "Beschleunigen Sie Ihre Infrastruktur mit automatisierter, zuverlässiger und Multi-Cloud-Expertise. DevOps auf Unternehmensniveau ohne den Overhead."
+
+[launch_infrastructure]
+other = "Infrastruktur starten"
+
+[book_consultation]
+other = "Beratung buchen"
+
+[expert_tech]
+other = "Experte für produktionsreife Technologien"
+
+[enterprise_services]
+other = "Enterprise DevOps-Dienste"
+
+[comprehensive_solutions]
+other = "Umfassende Cloud-Native-Lösungen, zugeschnitten auf Ihre Geschäftsanforderungen"
+
+[k8s_service]
+other = "Kubernetes-as-a-Service"
+
+[k8s_desc]
+other = "Produktionsreife K8s-Cluster mit Unternehmenssicherheit und automatisierter Skalierung"
+
+[devops_consulting]
+other = "DevOps-Beratung"
+
+[devops_consulting_desc]
+other = "Strategische Beratung zur Transformation Ihrer Infrastruktur und Delivery-Pipeline"
+
+[cicd_automation]
+other = "CI/CD-Automatisierung"
+
+[cicd_desc]
+other = "Optimierte Deployment-Pipelines mit Zero-Downtime-Releases"
+
+[cloud_management]
+other = "Cloud-Management"
+
+[cloud_desc]
+other = "Multi-Cloud-Orchestrierung mit Kostenoptimierung und Governance"
+
+[monitoring]
+other = "Überwachung & Observability"
+
+[monitoring_desc]
+other = "Echtzeit-Einblicke mit umfassenden Metriken, Logs und Tracing"
+
+[security]
+other = "Sicherheit & Härtung"
+
+[security_desc]
+other = "Sicherheit auf Unternehmensniveau mit Compliance- und Schwachstellenmanagement"
+
+[how_parsops_works]
+other = "Wie ParsOps funktioniert"
+
+[streamlined_approach]
+other = "Ein optimierter Ansatz zum Aufbau einer erstklassigen Infrastruktur"
+
+[assessment]
+other = "Bewertung"
+
+[assessment_desc]
+other = "Wir analysieren Ihre aktuelle Infrastruktur, identifizieren Engpässe und entwerfen eine maßgeschneiderte Roadmap"
+
+[deployment]
+other = "Bereitstellung"
+
+[deployment_desc]
+other = "Automatisierte Bereitstellung und Konfiguration Ihrer Cloud-Native-Infrastruktur"
+
+[continuous_management]
+other = "Kontinuierliches Management"
+
+[continuous_desc]
+other = "24/7-Überwachung, Optimierung und Support, damit Ihre Systeme einwandfrei laufen"
+
+[enterprise_architecture]
+other = "Architektur auf Unternehmensniveau"
+
+[multi_tenant]
+other = "Multi-Tenant Sicheres Kubernetes"
+
+[multi_tenant_desc]
+other = "Aufgebaut auf modernstem Technologie-Stack mit Netzwerkisolierung auf Unternehmensniveau. Unsere Plattform nutzt Cilium und eBPF für beispiellose Sicherheit und Leistung und stellt sicher, dass Ihre Workloads mit Zero-Trust-Networking geschützt sind."
+
+[workload_isolation]
+other = "Vollständige Workload-Isolierung mit Netzwerkrichtlinien"
+
+[ebpf_security]
+other = "eBPF-gestützte Sicherheit und Observability"
+
+[automated_compliance]
+other = "Automatisierte Compliance- und Sicherheitsüberprüfung"
+
+[learn_more]
+other = "Mehr erfahren"
+
+[trusted_leaders]
+other = "Vertraut von Innovationsführern"
+
+[client_feedback]
+other = "Sehen Sie, was unsere Kunden über die Zusammenarbeit mit ParsOps sagen"
+
+[build_together]
+other = "Lassen Sie uns gemeinsam Ihre Infrastruktur aufbauen"
+
+[ready_transform]
+other = "Bereit, Ihren DevOps-Workflow zu transformieren? Vereinbaren Sie noch heute einen Beratungstermin mit unseren Experten."
+
+[get_started_now]
+other = "Jetzt loslegen"
+
+[explore_services]
+other = "Dienste erkunden"
+
+[company]
+other = "Unternehmen"
+
+[connect]
+other = "Verbinden"
+
+[contact_email]
+other = "contact@parsops.com"
+
+[copyright]
+other = "© 2025 ParsOps. Mit Liebe vom ParsOps-Team erstellt."

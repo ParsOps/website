@@ -20,3 +20,12 @@ theme = 'parsops'
     languageName = 'فارسی'
     title = 'پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده.'
     weight = 2
+
+  [languages.de]
+    contentDir = 'content/de'
+    disabled = false
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'ParsOps — DevOps als Service. Vereinfacht.'
+    weight = 3

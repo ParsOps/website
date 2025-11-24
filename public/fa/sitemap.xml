@@ -11,6 +11,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fa-IR"
                 href="http://localhost:1313/fa/tags/"
                 />
@@ -33,6 +38,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/posts/post-3/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fa-IR"
                 href="http://localhost:1313/fa/posts/post-3/"
                 />
@@ -43,6 +53,11 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/posts/post-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/posts/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -59,6 +74,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/posts/post-1/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fa-IR"
                 href="http://localhost:1313/fa/posts/post-1/"
                 />
@@ -69,6 +89,11 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -85,6 +110,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fa-IR"
                 href="http://localhost:1313/fa/"
                 />
@@ -94,6 +124,11 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
