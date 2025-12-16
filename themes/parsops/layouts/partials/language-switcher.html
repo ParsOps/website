@@ -20,7 +20,7 @@
        lang="{{ .Lang }}" 
        class="language-link{{ if $isCurrent }} active{{ end }}" 
        title="{{ .LanguageName }}">
-      {{- if eq .Lang "en" }}🇬🇧{{- else if eq .Lang "fa" }}🇮🇷{{- end }}
+      {{- if eq .Lang "en" }}🇬🇧{{- else if eq .Lang "fa" }}🇮🇷{{- else if eq .Lang "de" }}🇩🇪{{- end }}
     </a>
   {{- end }}
 </div>
