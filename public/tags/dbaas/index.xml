@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DBaaS on پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده.</title>
+    <link>http://localhost:1313/tags/dbaas/</link>
+    <description>Recent content in DBaaS on پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده.</description>
+    <generator>Hugo</generator>
+    <language>fa-IR</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dbaas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>پایگاه داده به عنوان سرویس</title>
+      <link>http://localhost:1313/database-as-a-service/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/database-as-a-service/</guid>
+      <description>پایگاه داده به عنوان سرویس (DBaaS) مدیریت پایگاه‌های داده به تخصص ویژه، نظارت مداوم و نگهداری مستمر نیاز دارد. راه‌حل پایگاه داده به عنوان سرویس (DBaaS) ما پیچیدگی‌های مدیریت پایگاه داده را از بین می‌برد و به شما امکان می‌دهد روی برنامه‌تان تمرکز کنید در حالی که ما زیرساخت داده‌های شما را مدیریت می‌کنیم.&#xA;پایگاه داده به عنوان سرویس چیست؟ DBaaS یک سرویس ابری است که زیرساخت پایگاه داده مدیریت شده را فراهم می‌کند.</description>
+    </item>
+  </channel>
+</rss>

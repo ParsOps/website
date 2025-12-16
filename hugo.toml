@@ -1,11 +1,11 @@
 baseURL = 'https://parsops.com/'
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'fa'
 theme = 'parsops'
 
 [languages]
   [languages.en]
     contentDir = 'content/en'
-    disabled = false
+    disabled = true
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
@@ -19,11 +19,11 @@ theme = 'parsops'
     languageDirection = 'rtl'
     languageName = 'فارسی'
     title = 'پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده.'
-    weight = 2
+    weight = 1
 
   [languages.de]
     contentDir = 'content/de'
-    disabled = false
+    disabled = true
     languageCode = 'de-DE'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
