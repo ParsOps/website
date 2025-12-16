@@ -277,4 +277,4 @@ window.addEventListener('load', () => {
 // ==========================================
 
 console.log('%c🚀 ParsOps - DevOps as a Service', 'font-size: 20px; color: #00C2D1; font-weight: bold;');
-console.log('%cInterested in joining our team? Contact us at contact@parsops.com', 'font-size: 12px; color: #0A1A2F;');
+console.log('%cInterested in joining our team? Contact us at https://forms.gle/R6CdD7f7gdK1kWcQ6', 'font-size: 12px; color: #0A1A2F;');
