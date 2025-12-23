@@ -34,16 +34,16 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
- 
+    color: var(--gray-800);
+    background-color: var(--white);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
 
 /* Apply Vazir Matn font to Persian/RTL pages */
 html[lang="fa"] body,
 html[dir="rtl"] body {
     font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-}   color: var(--gray-800);
-    background-color: var(--white);
-    line-height: 1.6;
-    overflow-x: hidden;
 }
 
 .container {
