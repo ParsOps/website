@@ -36,4 +36,4 @@ We're available to assist you Monday through Friday, and our support team is rea
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*

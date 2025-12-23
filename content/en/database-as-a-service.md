@@ -175,4 +175,4 @@ Ready to simplify your database management? Whether you're starting a new projec
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*

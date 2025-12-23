@@ -9,7 +9,7 @@ theme = 'parsops'
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'ParsOps — DevOps as a Service. Simplified.'
+    title = 'ParsOps — The backbone you can trust.'
     weight = 1
 
   [languages.fa]
@@ -18,7 +18,7 @@ theme = 'parsops'
     languageCode = 'fa-IR'
     languageDirection = 'rtl'
     languageName = 'فارسی'
-    title = 'پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده.'
+    title = 'پارس‌آپس — پشت صحنه‌ای که می‌شود به آن اعتماد کرد'
     weight = 1
 
   [languages.de]
@@ -27,5 +27,5 @@ theme = 'parsops'
     languageCode = 'de-DE'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
-    title = 'ParsOps — DevOps als Service. Vereinfacht.'
+    title = 'ParsOps — Das Backend, dem Sie vertrauen können'
     weight = 3

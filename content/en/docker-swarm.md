@@ -220,4 +220,4 @@ Ready to deploy your applications on Docker Swarm? Whether you're starting fresh
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*

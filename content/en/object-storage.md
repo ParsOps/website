@@ -51,4 +51,4 @@ Ready to leverage the power of object storage for your applications? Contact us 
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*

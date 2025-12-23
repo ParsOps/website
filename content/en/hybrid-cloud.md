@@ -278,4 +278,4 @@ Ready to build a hybrid cloud strategy that works for your business? Whether you
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*

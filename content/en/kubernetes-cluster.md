@@ -113,4 +113,4 @@ Ready to leverage the power of Kubernetes for your applications? Whether you're 
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*

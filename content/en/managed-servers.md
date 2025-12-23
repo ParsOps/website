@@ -166,4 +166,4 @@ Ready to offload the burden of server management? Contact us today to discuss yo
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*

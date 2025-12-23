@@ -204,4 +204,4 @@ Ready to accelerate your software delivery with DevOps? Whether you're just star
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*

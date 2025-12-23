@@ -90,4 +90,4 @@ Ready to build a world-class infrastructure for your business? Our infrastructur
 
 ---
 
-*ParsOps — DevOps as a Service. Simplified.*
+*ParsOps — The backbone you can trust.*
