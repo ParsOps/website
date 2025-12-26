@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servers on ParsOps — DevOps as a Service. Simplified.</title>
+    <link>http://localhost:1313/tags/servers/</link>
+    <description>Recent content in Servers on ParsOps — DevOps as a Service. Simplified.</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/servers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managed Servers</title>
+      <link>http://localhost:1313/managed-servers/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/managed-servers/</guid>
+      <description>Fully Managed Server Solutions Focus on your business while we handle your server infrastructure. ParsOps provides comprehensive managed server services that ensure your applications run smoothly, securely, and efficiently 24/7.&#xA;What Are Managed Servers? Managed servers are server infrastructure solutions where we handle all aspects of server management, maintenance, and monitoring. You get the benefits of dedicated or cloud servers without the complexity of managing them yourself.&#xA;Why Choose Managed Servers?</description>
+    </item>
+  </channel>
+</rss>

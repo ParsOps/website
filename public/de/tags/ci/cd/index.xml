@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI/CD on ParsOps — DevOps als Service. Vereinfacht.</title>
+    <link>http://localhost:1313/de/tags/ci/cd/</link>
+    <description>Recent content in CI/CD on ParsOps — DevOps als Service. Vereinfacht.</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps as a Service</title>
+      <link>http://localhost:1313/de/devops-as-a-service/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/de/devops-as-a-service/</guid>
+      <description>DevOps as a Service — Beschleunigen Sie Ihre Softwarebereitstellung Transformieren Sie Ihre Softwareentwicklungs- und Bereitstellungsprozesse mit dem umfassenden DevOps as a Service-Angebot von ParsOps. Wir helfen Unternehmen, DevOps Best Practices zu implementieren, Workflows zu automatisieren und Software schneller und zuverlässiger bereitzustellen.&#xA;Was ist DevOps as a Service? DevOps as a Service (DaaS) bietet End-to-End-DevOps-Expertise und -Implementierung, ohne dass Sie ein internes DevOps-Team aufbauen müssen. Wir kümmern uns um alles, von der Strategie und den Tools bis zur Implementierung und laufenden Verwaltung, sodass Sie sich auf die Entwicklung großartiger Produkte konzentrieren können.</description>
+    </item>
+  </channel>
+</rss>

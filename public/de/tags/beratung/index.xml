@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beratung on ParsOps — DevOps als Service. Vereinfacht.</title>
+    <link>http://localhost:1313/de/tags/beratung/</link>
+    <description>Recent content in Beratung on ParsOps — DevOps als Service. Vereinfacht.</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/beratung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infrastrukturdesign</title>
+      <link>http://localhost:1313/de/infrastructure-design/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/de/infrastructure-design/</guid>
+      <description>Experten-Infrastrukturdesign-Services Eine gut konzipierte Infrastruktur ist die Grundlage jedes erfolgreichen digitalen Unternehmens. Bei ParsOps sind wir darauf spezialisiert, robuste, skalierbare und effiziente Infrastrukturarchitekturen zu erstellen, die Ihre Geschäftsanforderungen heute erfüllen und mit Ihnen morgen wachsen.&#xA;Warum Infrastrukturdesign wichtig ist Schlechtes Infrastrukturdesign kann zu Ausfallzeiten, Sicherheitslücken, Leistungsproblemen und übermäßigen Kosten führen. Eine ordnungsgemäß konzipierte Infrastruktur gewährleistet:&#xA;Hochverfügbarkeit: Minimierung von Ausfallzeiten und Gewährleistung der Geschäftskontinuität Skalierbarkeit: Nahtloses Wachstum mit Ihrem Unternehmen Sicherheit: Schutz Ihrer Daten und Anwendungen vor Bedrohungen Kosteneffizienz: Optimierung der Ressourcennutzung und Reduzierung der Betriebskosten Leistung: Bereitstellung schneller und zuverlässiger Services für Ihre Benutzer Unser Infrastrukturdesign-Ansatz 1.</description>
+    </item>
+  </channel>
+</rss>

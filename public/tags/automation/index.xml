@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on ParsOps — DevOps as a Service. Simplified.</title>
+    <link>http://localhost:1313/tags/automation/</link>
+    <description>Recent content in Automation on ParsOps — DevOps as a Service. Simplified.</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps as a Service</title>
+      <link>http://localhost:1313/devops-as-a-service/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/devops-as-a-service/</guid>
+      <description>DevOps as a Service — Accelerate Your Software Delivery Transform your software development and deployment processes with ParsOps&amp;rsquo; comprehensive DevOps as a Service offering. We help organizations implement DevOps best practices, automate workflows, and deliver software faster and more reliably.&#xA;What is DevOps as a Service? DevOps as a Service (DaaS) provides end-to-end DevOps expertise and implementation without the need to build an in-house DevOps team. We handle everything from strategy and tooling to implementation and ongoing management, allowing you to focus on building great products.</description>
+    </item>
+  </channel>
+</rss>

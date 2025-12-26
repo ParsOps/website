@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orchestration on ParsOps — DevOps as a Service. Simplified.</title>
+    <link>http://localhost:1313/tags/orchestration/</link>
+    <description>Recent content in Orchestration on ParsOps — DevOps as a Service. Simplified.</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/orchestration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Swarm</title>
+      <link>http://localhost:1313/docker-swarm/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/docker-swarm/</guid>
+      <description>Docker Swarm — Simple Container Orchestration Docker Swarm is Docker&amp;rsquo;s native clustering and orchestration solution that turns multiple Docker hosts into a single, virtual Docker host. At ParsOps, we help organizations leverage Docker Swarm for simple, yet powerful container orchestration.&#xA;What is Docker Swarm? Docker Swarm is a container orchestration platform that enables you to manage a cluster of Docker engines. It provides native clustering capabilities to turn a group of Docker hosts into a single, virtual Docker host, making it easy to deploy and manage containerized applications at scale.</description>
+    </item>
+    <item>
+      <title>Kubernetes Cluster</title>
+      <link>http://localhost:1313/kubernetes-cluster/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/kubernetes-cluster/</guid>
+      <description>Professional Kubernetes Cluster Management Kubernetes has become the de facto standard for container orchestration, enabling organizations to deploy, scale, and manage containerized applications efficiently. At ParsOps, we provide enterprise-grade Kubernetes cluster management services that take the complexity out of running Kubernetes in production.&#xA;What is Kubernetes? Kubernetes (K8s) is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides a robust framework for running distributed systems resiliently, handling scaling and failover for your applications.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DBaaS on ParsOps — DevOps als Service. Vereinfacht.</title>
+    <link>http://localhost:1313/de/tags/dbaas/</link>
+    <description>Recent content in DBaaS on ParsOps — DevOps als Service. Vereinfacht.</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/dbaas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database as a Service</title>
+      <link>http://localhost:1313/de/database-as-a-service/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/de/database-as-a-service/</guid>
+      <description>Database as a Service (DBaaS) Die Verwaltung von Datenbanken erfordert spezialisiertes Fachwissen, kontinuierliche Überwachung und laufende Wartung. Unsere Database as a Service (DBaaS)-Lösung beseitigt die Komplexität der Datenbankverwaltung und ermöglicht es Ihnen, sich auf Ihre Anwendung zu konzentrieren, während wir uns um Ihre Dateninfrastruktur kümmern.&#xA;Was ist Database as a Service? DBaaS ist ein cloudbasierter Service, der verwaltete Datenbankinfrastruktur bereitstellt. Wir kümmern uns um alle Aspekte der Datenbankverwaltung, einschließlich Setup, Konfiguration, Wartung, Backups, Skalierung und Sicherheit, während Sie die volle Kontrolle über Ihre Daten und Abfragen behalten.</description>
+    </item>
+  </channel>
+</rss>

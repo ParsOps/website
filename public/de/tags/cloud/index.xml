@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on ParsOps — DevOps als Service. Vereinfacht.</title>
+    <link>http://localhost:1313/de/tags/cloud/</link>
+    <description>Recent content in Cloud on ParsOps — DevOps als Service. Vereinfacht.</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hybrid Cloud</title>
+      <link>http://localhost:1313/de/hybrid-cloud/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/de/hybrid-cloud/</guid>
+      <description>Hybrid Cloud-Lösungen — Das Beste aus beiden Welten Hybrid Cloud kombiniert die Flexibilität und Skalierbarkeit der öffentlichen Cloud mit der Kontrolle und Sicherheit privater Infrastruktur. Bei ParsOps entwerfen und implementieren wir Hybrid Cloud-Lösungen, die Ihnen die optimale Balance aus Leistung, Sicherheit, Kosten und Compliance bieten.&#xA;Was ist Hybrid Cloud? Hybrid Cloud ist eine IT-Infrastruktur, die öffentliche Cloud-Dienste, private Cloud (oder On-Premises-Infrastruktur) und die Orchestrierung zwischen ihnen kombiniert. Dieser Ansatz ermöglicht es Daten und Anwendungen, sich zwischen privaten und öffentlichen Clouds zu bewegen, was Unternehmen größere Flexibilität und mehr Bereitstellungsoptionen bietet.</description>
+    </item>
+    <item>
+      <title>Object Storage</title>
+      <link>http://localhost:1313/de/object-storage/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/de/object-storage/</guid>
+      <description>Skalierbare Object Storage Lösungen Object Storage ist ein moderner Ansatz zur skalierbaren Speicherung unstrukturierter Daten. Im Gegensatz zu traditionellen Dateisystemen verwaltet Object Storage Daten als Objekte und eignet sich daher ideal für Cloud-native Anwendungen, Backups, Mediendateien und Big-Data-Analytics.&#xA;Was ist Object Storage? Object Storage ist eine Datenspeicherarchitektur, die Daten als Objekte verwaltet, anstatt als Dateien in einer Hierarchie oder als Blöcke auf einem Speichergerät. Jedes Objekt enthält die Daten selbst, Metadaten und einen eindeutigen Identifikator, wodurch es hochgradig skalierbar und leicht zugänglich wird.</description>
+    </item>
+  </channel>
+</rss>

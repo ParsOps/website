@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on ParsOps — DevOps als Service. Vereinfacht.</title>
+    <link>http://localhost:1313/de/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on ParsOps — DevOps als Service. Vereinfacht.</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Cluster</title>
+      <link>http://localhost:1313/de/kubernetes-cluster/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/de/kubernetes-cluster/</guid>
+      <description>Professionelles Kubernetes Cluster Management Kubernetes ist zum De-facto-Standard für Container-Orchestrierung geworden und ermöglicht es Unternehmen, containerisierte Anwendungen effizient bereitzustellen, zu skalieren und zu verwalten. Bei ParsOps bieten wir Kubernetes Cluster Management Services auf Unternehmensniveau, die die Komplexität der Ausführung von Kubernetes in der Produktion beseitigen.&#xA;Was ist Kubernetes? Kubernetes (K8s) ist eine Open-Source-Container-Orchestrierungsplattform, die die Bereitstellung, Skalierung und Verwaltung containerisierter Anwendungen automatisiert. Sie bietet ein robustes Framework für die widerstandsfähige Ausführung verteilter Systeme und kümmert sich um Skalierung und Failover für Ihre Anwendungen.</description>
+    </item>
+  </channel>
+</rss>

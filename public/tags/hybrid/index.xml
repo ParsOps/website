@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hybrid on ParsOps — DevOps as a Service. Simplified.</title>
+    <link>http://localhost:1313/tags/hybrid/</link>
+    <description>Recent content in Hybrid on ParsOps — DevOps as a Service. Simplified.</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hybrid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hybrid Cloud</title>
+      <link>http://localhost:1313/hybrid-cloud/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/hybrid-cloud/</guid>
+      <description>Hybrid Cloud Solutions — Best of Both Worlds Hybrid cloud combines the flexibility and scalability of public cloud with the control and security of private infrastructure. At ParsOps, we design and implement hybrid cloud solutions that give you the optimal balance of performance, security, cost, and compliance.&#xA;What is Hybrid Cloud? Hybrid cloud is an IT infrastructure that combines public cloud services, private cloud (or on-premises infrastructure), and orchestration between them.</description>
+    </item>
+  </channel>
+</rss>

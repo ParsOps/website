@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage on ParsOps — DevOps as a Service. Simplified.</title>
+    <link>http://localhost:1313/tags/storage/</link>
+    <description>Recent content in Storage on ParsOps — DevOps as a Service. Simplified.</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Object Storage</title>
+      <link>http://localhost:1313/object-storage/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/object-storage/</guid>
+      <description>Scalable Object Storage Solutions Object storage is a modern approach to storing unstructured data at scale. Unlike traditional file systems, object storage manages data as objects, making it ideal for cloud-native applications, backups, media files, and big data analytics.&#xA;What is Object Storage? Object storage is a data storage architecture that manages data as objects, rather than as files in a hierarchy or blocks on a storage device. Each object includes the data itself, metadata, and a unique identifier, making it highly scalable and easily accessible.</description>
+    </item>
+  </channel>
+</rss>

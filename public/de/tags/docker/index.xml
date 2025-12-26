@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on ParsOps — DevOps als Service. Vereinfacht.</title>
+    <link>http://localhost:1313/de/tags/docker/</link>
+    <description>Recent content in Docker on ParsOps — DevOps als Service. Vereinfacht.</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Swarm</title>
+      <link>http://localhost:1313/de/docker-swarm/</link>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/de/docker-swarm/</guid>
+      <description>Docker Swarm — Einfache Container-Orchestrierung Docker Swarm ist Dockers native Clustering- und Orchestrierungslösung, die mehrere Docker-Hosts in einen einzigen, virtuellen Docker-Host verwandelt. Bei ParsOps helfen wir Unternehmen, Docker Swarm für einfache, aber leistungsstarke Container-Orchestrierung zu nutzen.&#xA;Was ist Docker Swarm? Docker Swarm ist eine Container-Orchestrierungsplattform, die es Ihnen ermöglicht, einen Cluster von Docker-Engines zu verwalten. Sie bietet native Clustering-Funktionen, um eine Gruppe von Docker-Hosts in einen einzigen, virtuellen Docker-Host zu verwandeln, was die Bereitstellung und Verwaltung containerisierter Anwendungen im großen Maßstab erleichtert.</description>
+    </item>
+  </channel>
+</rss>
