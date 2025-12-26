@@ -6,8 +6,141 @@
     <description>Recent content in Tags on ParsOps — DevOps als Service. Vereinfacht.</description>
     <generator>Hugo</generator>
     <language>de-DE</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2024 09:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architektur</title>
+      <link>http://localhost:1313/de/tags/architektur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/architektur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automatisierung</title>
+      <link>http://localhost:1313/de/tags/automatisierung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/automatisierung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beratung</title>
+      <link>http://localhost:1313/de/tags/beratung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/beratung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI/CD</title>
+      <link>http://localhost:1313/de/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>http://localhost:1313/de/tags/cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Container</title>
+      <link>http://localhost:1313/de/tags/container/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/container/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Daten</title>
+      <link>http://localhost:1313/de/tags/daten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/daten/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datenbank</title>
+      <link>http://localhost:1313/de/tags/datenbank/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/datenbank/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DBaaS</title>
+      <link>http://localhost:1313/de/tags/dbaas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/dbaas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>http://localhost:1313/de/tags/devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/de/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hybrid</title>
+      <link>http://localhost:1313/de/tags/hybrid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/hybrid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastruktur</title>
+      <link>http://localhost:1313/de/tags/infrastruktur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/infrastruktur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:1313/de/tags/kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orchestrierung</title>
+      <link>http://localhost:1313/de/tags/orchestrierung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/orchestrierung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>http://localhost:1313/de/tags/server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Storage</title>
+      <link>http://localhost:1313/de/tags/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/storage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swarm</title>
+      <link>http://localhost:1313/de/tags/swarm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/swarm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Verwaltung</title>
+      <link>http://localhost:1313/de/tags/verwaltung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/tags/verwaltung/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blue</title>
       <link>http://localhost:1313/de/tags/blue/</link>

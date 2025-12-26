@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fa-IR" dir="rtl">
+<html lang="en-US" dir="ltr">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title> | پارس‌آپس — پشت صحنه‌ای که می‌شود به آن اعتماد کرد</title>
+<title>Docker Swarm | ParsOps — DevOps as a Service. Simplified.</title>
 
     <link rel="stylesheet" href="/css/main.css">
 
@@ -16,7 +16,7 @@
   <header>
     <div class="header-container">
   <div class="header-left">
-    <h1>پارس‌آپس — پشت صحنه‌ای که می‌شود به آن اعتماد کرد</h1>
+    <h1>ParsOps — DevOps as a Service. Simplified.</h1>
     
   <nav>
     <ul>
@@ -36,9 +36,19 @@
   <div class="header-right">
     <div class="language-switcher">
     <a href="/docker-swarm/" 
-       lang="fa" 
+       lang="en" 
        class="language-link active" 
+       title="English">🇬🇧
+    </a>
+    <a href="http://localhost:1313/de/docker-swarm/" 
+       lang="fa" 
+       class="language-link" 
        title="فارسی">🇮🇷
+    </a>
+    <a href="http://localhost:1313/de/docker-swarm/" 
+       lang="de" 
+       class="language-link" 
+       title="Deutsch">🇩🇪
     </a>
 </div>
 
@@ -48,242 +58,201 @@
   </header>
   <main>
     
-  <h1></h1>
+  <h1>Docker Swarm</h1>
 
   
   
-  <time datetime="0001-01-01T00:00:00&#43;00:00">1 ژانویهٔ 1</time>
+  <time datetime="2024-01-01T09:00:00-07:00">January 1, 2024</time>
+
+  <h2 id="docker-swarm--simple-container-orchestration">Docker Swarm — Simple Container Orchestration</h2>
+<p>Docker Swarm is Docker&rsquo;s native clustering and orchestration solution that turns multiple Docker hosts into a single, virtual Docker host. At ParsOps, we help organizations leverage Docker Swarm for simple, yet powerful container orchestration.</p>
+<h3 id="what-is-docker-swarm">What is Docker Swarm?</h3>
+<p>Docker Swarm is a container orchestration platform that enables you to manage a cluster of Docker engines. It provides native clustering capabilities to turn a group of Docker hosts into a single, virtual Docker host, making it easy to deploy and manage containerized applications at scale.</p>
+<h3 id="why-choose-docker-swarm">Why Choose Docker Swarm?</h3>
+<p><strong>Simplicity</strong><br>
+Docker Swarm is easier to set up and manage compared to other orchestration platforms. If you already know Docker, you know Swarm.</p>
+<p><strong>Native Docker Integration</strong><br>
+Swarm is built into Docker Engine, requiring no additional software or complex configurations.</p>
+<p><strong>Gentle Learning Curve</strong><br>
+Familiar Docker CLI commands work seamlessly with Swarm, reducing the learning curve.</p>
+<p><strong>Efficient Resource Usage</strong><br>
+Lightweight orchestration with minimal overhead compared to heavier alternatives.</p>
+<p><strong>Integrated Security</strong><br>
+Built-in TLS encryption for node communication and secrets management.</p>
+<p><strong>Good for Small to Medium Deployments</strong><br>
+Perfect for teams that don&rsquo;t need the complexity of Kubernetes but want container orchestration.</p>
+<h3 id="docker-swarm-vs-kubernetes">Docker Swarm vs. Kubernetes</h3>
+<p>While Kubernetes has become the industry standard for large-scale deployments, Docker Swarm offers advantages for certain use cases:</p>
+<p><strong>When to Choose Docker Swarm:</strong></p>
+<ul>
+<li>Simpler applications with straightforward requirements</li>
+<li>Small to medium-sized deployments</li>
+<li>Teams with limited DevOps resources</li>
+<li>Quick time-to-production requirements</li>
+<li>When you want to leverage existing Docker knowledge</li>
+</ul>
+<p><strong>When to Choose Kubernetes:</strong></p>
+<ul>
+<li>Large, complex microservices architectures</li>
+<li>Enterprise-scale deployments</li>
+<li>Need for extensive customization</li>
+<li>Rich ecosystem of tools and integrations</li>
+</ul>
+<h3 id="our-docker-swarm-services">Our Docker Swarm Services</h3>
+<p><strong>Swarm Cluster Setup</strong></p>
+<ul>
+<li>Multi-node cluster configuration</li>
+<li>Manager and worker node deployment</li>
+<li>High availability setup with multiple managers</li>
+<li>Network overlay configuration</li>
+<li>Volume and storage integration</li>
+</ul>
+<p><strong>Application Deployment</strong></p>
+<ul>
+<li>Docker Compose to Swarm migration</li>
+<li>Stack deployment and management</li>
+<li>Service scaling and load balancing</li>
+<li>Rolling updates and rollbacks</li>
+<li>Health checks and auto-recovery</li>
+</ul>
+<p><strong>Monitoring &amp; Management</strong></p>
+<ul>
+<li>Cluster health monitoring</li>
+<li>Service performance tracking</li>
+<li>Log aggregation</li>
+<li>Resource utilization dashboards</li>
+<li>Alert configuration</li>
+</ul>
+<p><strong>Security</strong></p>
+<ul>
+<li>TLS certificate management</li>
+<li>Secrets and config management</li>
+<li>Network segmentation</li>
+<li>Access control and RBAC</li>
+<li>Regular security updates</li>
+</ul>
+<h3 id="key-docker-swarm-features">Key Docker Swarm Features</h3>
+<p><strong>Service Discovery</strong><br>
+Built-in DNS-based service discovery makes it easy for services to find each other.</p>
+<p><strong>Load Balancing</strong><br>
+Automatic load balancing distributes traffic across healthy containers.</p>
+<p><strong>Declarative Service Model</strong><br>
+Define desired state and Swarm maintains it automatically.</p>
+<p><strong>Scaling</strong><br>
+Scale services up or down with a single command.</p>
+<p><strong>Rolling Updates</strong><br>
+Update services with zero downtime using rolling update strategies.</p>
+<p><strong>Multi-Host Networking</strong><br>
+Overlay networks enable secure communication across hosts.</p>
+<p><strong>Self-Healing</strong><br>
+Automatic container restart and rescheduling if nodes fail.</p>
+<h3 id="docker-swarm-architecture">Docker Swarm Architecture</h3>
+<p><strong>Manager Nodes</strong><br>
+Maintain cluster state, schedule services, and serve the Swarm API.</p>
+<p><strong>Worker Nodes</strong><br>
+Run containers as directed by manager nodes.</p>
+<p><strong>Services</strong><br>
+Define how containers should run, including replicas, networks, and resources.</p>
+<p><strong>Tasks</strong><br>
+Individual container instances managed by Swarm.</p>
+<h3 id="use-cases">Use Cases</h3>
+<p><strong>Web Applications</strong><br>
+Deploy multi-tier web applications with load balancing and high availability.</p>
+<p><strong>Microservices</strong><br>
+Run microservices architectures with service discovery and networking.</p>
+<p><strong>CI/CD Pipelines</strong><br>
+Run build agents and deployment environments.</p>
+<p><strong>Development Environments</strong><br>
+Create consistent development and testing environments.</p>
+<p><strong>Legacy Application Modernization</strong><br>
+Containerize and orchestrate existing applications.</p>
+<h3 id="deployment-strategies">Deployment Strategies</h3>
+<p><strong>Replicated Services</strong><br>
+Run a specified number of replicas across the cluster.</p>
+<p><strong>Global Services</strong><br>
+Run one container on every node in the cluster.</p>
+<p><strong>Rolling Updates</strong><br>
+Update services gradually to minimize downtime.</p>
+<p><strong>Blue-Green Deployments</strong><br>
+Switch traffic between old and new versions instantly.</p>
+<h3 id="infrastructure-options">Infrastructure Options</h3>
+<p><strong>Cloud Deployments</strong></p>
+<ul>
+<li>AWS EC2</li>
+<li>Google Compute Engine</li>
+<li>Azure Virtual Machines</li>
+<li>DigitalOcean Droplets</li>
+</ul>
+<p><strong>On-Premises</strong></p>
+<ul>
+<li>Physical servers</li>
+<li>Virtual machines</li>
+<li>Hybrid configurations</li>
+</ul>
+<h3 id="monitoring--observability">Monitoring &amp; Observability</h3>
+<p>We set up comprehensive monitoring for your Swarm clusters:</p>
+<ul>
+<li><strong>Prometheus</strong>: Metrics collection and storage</li>
+<li><strong>Grafana</strong>: Visualization and dashboards</li>
+<li><strong>cAdvisor</strong>: Container metrics</li>
+<li><strong>ELK Stack</strong>: Centralized logging</li>
+<li><strong>Portainer</strong>: Web-based management UI</li>
+</ul>
+<h3 id="migration-services">Migration Services</h3>
+<p><strong>From Docker Compose</strong><br>
+Seamless migration from single-host Docker Compose to multi-host Swarm.</p>
+<p><strong>From Other Orchestrators</strong><br>
+Migrate from other orchestration platforms to Docker Swarm.</p>
+<p><strong>To Kubernetes</strong><br>
+When you outgrow Swarm, we help migrate to Kubernetes.</p>
+<h3 id="best-practices-we-follow">Best Practices We Follow</h3>
+<ul>
+<li>Multiple manager nodes for high availability (3 or 5 managers)</li>
+<li>Odd number of managers for quorum</li>
+<li>Separate manager and worker roles for production</li>
+<li>Overlay networks for service communication</li>
+<li>Health checks for all services</li>
+<li>Resource limits and reservations</li>
+<li>Automated backups of Swarm state</li>
+<li>Regular security updates</li>
+</ul>
+<h3 id="service-management">Service Management</h3>
+<p><strong>Stack Deployment</strong><br>
+Deploy entire application stacks with Docker Compose files.</p>
+<p><strong>Service Scaling</strong><br>
+Scale services horizontally across the cluster.</p>
+<p><strong>Update Management</strong><br>
+Controlled updates with configurable update policies.</p>
+<p><strong>Constraint-Based Placement</strong><br>
+Control where services run based on node labels.</p>
+<h3 id="why-parsops-for-docker-swarm">Why ParsOps for Docker Swarm?</h3>
+<ul>
+<li><strong>Docker Certified</strong>: Our team holds Docker certifications</li>
+<li><strong>Production Experience</strong>: Years of running Swarm in production</li>
+<li><strong>Best Practices</strong>: We follow Docker&rsquo;s recommended practices</li>
+<li><strong>Full Support</strong>: From setup to ongoing management</li>
+<li><strong>Migration Path</strong>: Clear path to Kubernetes when needed</li>
+</ul>
+<h3 id="getting-started">Getting Started</h3>
+<p>Ready to deploy your applications on Docker Swarm? Whether you&rsquo;re starting fresh or migrating existing Docker deployments, our team can help. Contact us to discuss your container orchestration needs.</p>
+<hr>
+<p><em>ParsOps — The backbone you can trust.</em></p>
 
-  <pre tabindex="0"><code>+++
-title = &#39;داکر سوآرم&#39;
-date = 2024-01-01T09:00:00-07:00
-draft = false
-tags = [&#39;داکر&#39;, &#39;سوآرم&#39;, &#39;کانتینر&#39;, &#39;اورکستراسیون&#39;]
-+++
-
-## داکر سوآرم — اورکستراسیون ساده کانتینرها
-
-داکر سوآرم راه‌حل خوشه‌بندی و اورکستراسیون بومی داکر است که چندین میزبان داکر را به یک میزبان داکر مجازی واحد تبدیل می‌کند. در پارس‌اپس، ما به سازمان‌ها کمک می‌کنیم تا از داکر سوآرم برای اورکستراسیون کانتینر ساده، اما قدرتمند بهره‌برداری کنند.
-
-### داکر سوآرم چیست؟
-
-داکر سوآرم یک پلتفرم اورکستراسیون کانتینر است که به شما امکان مدیریت یک خوشه از موتورهای داکر را می‌دهد. این پلتفرم قابلیت‌های خوشه‌بندی بومی را فراهم می‌کند تا گروهی از میزبان‌های داکر را به یک میزبان داکر مجازی واحد تبدیل کند، که استقرار و مدیریت برنامه‌های کانتینریزه شده در مقیاس را آسان می‌سازد.
-
-### چرا داکر سوآرم را انتخاب کنیم؟
-
-**سادگی**  
-داکر سوآرم در مقایسه با پلتفرم‌های اورکستراسیون دیگر، راه‌اندازی و مدیریت آسان‌تری دارد. اگر شما از قبل داکر را می‌شناسید، سوآرم را نیز می‌شناسید.
-
-**ادغام بومی با داکر**  
-سوآرم در موتور داکر ساخته شده است و نیاز به نرم‌افزار اضافی یا پیکربندی‌های پیچیده ندارد.
-
-**منحنی یادگیری ملایم**  
-دستورات آشنا CLI داکر به طور یکپارچه با سوآرم کار می‌کنند و منحنی یادگیری را کاهش می‌دهند.
-
-**استفاده کارآمد از منابع**  
-اورکستراسیون سبک‌وزن با سربار کم در مقایسه با جایگزین‌های سنگین‌تر.
-
-**امنیت یکپارچه**  
-رمزگذاری TLS داخلی برای ارتباط نودها و مدیریت اسرار.
-
-**مناسب برای استقرارهای کوچک تا متوسط**  
-عالی برای تیم‌هایی که پیچیدگی کوبرنتیس را نیاز ندارند اما اورکستراسیون کانتینر می‌خواهند.
-
-### داکر سوآرم در مقابل کوبرنتیس
-
-در حالی که کوبرنتیس به استاندارد صنعتی برای استقرارهای در مقیاس بزرگ تبدیل شده است، داکر سوآرم برای موارد استفاده خاص مزایایی ارائه می‌دهد:
-
-**چه زمانی داکر سوآرم را انتخاب کنیم:**
-- برنامه‌های ساده‌تر با نیازهای سرراست
-- استقرارهای کوچک تا متوسط
-- تیم‌هایی با منابع دوواپس محدود
-- نیازمندی‌های سریع برای ورود به تولید
-- زمانی که می‌خواهید از دانش موجود داکر استفاده کنید
-
-**چه زمانی کوبرنتیس را انتخاب کنیم:**
-- معماری‌های میکروسرویس بزرگ و پیچیده
-- استقرارهای در مقیاس سازمانی
-- نیاز به سفارشی‌سازی گسترده
-- اکوسیستم غنی از ابزارها و یکپارچه‌سازی‌ها
-
-### خدمات داکر سوآرم ما
-
-**راه‌اندازی خوشه سوآرم**
-- پیکربندی خوشه چند نود
-- استقرار نودهای مدیر و کارگر
-- راه‌اندازی با دسترسی‌پذیری بالا با چندین مدیر
-- پیکربندی شبکه overlay
-- یکپارچه‌سازی حجم و ذخیره‌سازی
-
-**استقرار برنامه**
-- مهاجرت از داکر کامپوز به سوآرم
-- استقرار و مدیریت stack
-- مقیاس‌دهی و تعادل بار سرویس
-- به‌روزرسانی‌های Rolling و rollback
-- بررسی سلامت و بازیابی خودکار
-
-**مانیتورینگ و مدیریت**
-- مانیتورینگ سلامت خوشه
-- ردیابی عملکرد سرویس
-- تجمیع لاگ
-- داشبوردهای استفاده از منابع
-- پیکربندی هشدار
-
-**امنیت**
-- مدیریت گواهی TLS
-- مدیریت اسرار و پیکربندی
-- تقسیم‌بندی شبکه
-- کنترل دسترسی و RBAC
-- به‌روزرسانی‌های امنیتی منظم
-
-### ویژگی‌های کلیدی داکر سوآرم
-
-**کشف سرویس**  
-کشف سرویس داخلی مبتنی بر DNS، پیدا کردن سرویس‌ها توسط یکدیگر را آسان می‌کند.
-
-**تعادل بار**  
-تعادل بار خودکار، ترافیک را در بین کانتینرهای سالم توزیع می‌کند.
-
-**مدل سرویس اعلانی**  
-حالت مطلوب را تعریف کنید و سوآرم آن را به طور خودکار حفظ می‌کند.
-
-**مقیاس‌دهی**  
-سرویس‌ها را با یک دستور واحد بالا یا پایین مقیاس دهید.
-
-**به‌روزرسانی‌های Rolling**  
-سرویس‌ها را با استفاده از استراتژی‌های به‌روزرسانی Rolling و بدون Downtime به‌روز کنید.
-
-**شبکه‌سازی چند میزبانی**  
-شبکه‌های overlay ارتباط امن در بین میزبان‌ها را ممکن می‌سازند.
-
-**خود-ترمیمی**  
-راه‌اندازی مجدد و زمان‌بندی مجدد خودکار کانتینر در صورت خرابی نودها.
-
-### معماری داکر سوآرم
-
-**نودهای مدیر**  
-حالت خوشه را حفظ می‌کنند، سرویس‌ها را زمان‌بندی می‌کنند و API سوآرم را ارائه می‌دهند.
-
-**نودهای کارگر**  
-کانتینرها را همانطور که توسط نودهای مدیر دستور داده شده اجرا می‌کنند.
-
-**سرویس‌ها**  
-تعیین می‌کنند که کانتینرها چگونه باید اجرا شوند، شامل replicas، شبکه‌ها و منابع.
-
-**وظایف**  
-نمونه‌های کانتینر منفرد که توسط سوآرم مدیریت می‌شوند.
-
-### موارد استفاده
-
-**برنامه‌های وب**  
-برنامه‌های وب چند لایه را با تعادل بار و دسترسی‌پذیری بالا مستقر کنید.
-
-**میکروسرویس‌ها**  
-معماری‌های میکروسرویس را با کشف سرویس و شبکه‌سازی اجرا کنید.
-
-**خط لوله‌های CI/CD**  
-عامل‌های ساخت و محیط‌های استقرار را اجرا کنید.
-
-**محیط‌های توسعه**  
-محیط‌های توسعه و تست یکسان ایجاد کنید.
-
-**نوسازی برنامه‌های Legacy**  
-برنامه‌های موجود را کانتینریزه و اورکستر کنید.
-
-### استراتژی‌های استقرار
-
-**سرویس‌های تکثیرشده**  
-تعداد مشخصی replica را در سراسر خوشه اجرا کنید.
-
-**سرویس‌های سراسری**  
-یک کانتینر روی هر نود در خوشه اجرا کنید.
-
-**به‌روزرسانی‌های Rolling**  
-سرویس‌ها را به تدریج به‌روز کنید تا Downtime به حداقل برسد.
-
-**استقرارهای Blue-Green**  
-ترافیک را به طور آنی بین نسخه‌های قدیم و جدید سوئیچ کنید.
-
-### گزینه‌های زیرساخت
-
-**استقرارهای ابری**
-- AWS EC2
-- Google Compute Engine
-- Azure Virtual Machines
-- DigitalOcean Droplets
-
-**محلی**
-- سرورهای فیزیکی
-- ماشین‌های مجازی
-- پیکربندی‌های ترکیبی
-
-### مانیتورینگ و مشاهده‌پذیری
-
-ما مانیتورینگ جامعی برای خوشه‌های سوآرم شما راه‌اندازی می‌کنیم:
-- **Prometheus**: جمع‌آوری و ذخیره‌سازی معیارها
-- **Grafana**: بصری‌سازی و داشبوردها
-- **cAdvisor**: معیارهای کانتینر
-- **پشته ELK**: ثبت رویداد متمرکز
-- **Portainer**: رابط کاربری مدیریت مبتنی بر وب
-
-### خدمات مهاجرت
-
-**از داکر کامپوز**  
-مهاجرت یکپارچه از داکر کامپوز تک میزبانی به سوآرم چند میزبانی.
-
-**از سایر اورکسترها**  
-مهاجرت از سایر پلتفرم‌های اورکستراسیون به داکر سوآرم.
-
-**به کوبرنتیس**  
-وقتی از سوآرم بزرگتر شدید، ما به مهاجرت به کوبرنتیس کمک می‌کنیم.
-
-### بهترین روش‌هایی که دنبال می‌کنیم
-
-- چندین نود مدیر برای دسترسی‌پذیری بالا (3 یا 5 مدیر)
-- تعداد فردی از مدیران برای quorum
-- نقش‌های جداگانه مدیر و کارگر برای محیط تولید
-- شبکه‌های overlay برای ارتباط سرویس
-- بررسی سلامت برای همه سرویس‌ها
-- محدودیت‌ها و رزروهای منابع
-- پشتیبان‌گیری خودکار از حالت سوآرم
-- به‌روزرسانی‌های امنیتی منظم
-
-### مدیریت سرویس
-
-**استقرار Stack**  
-کل stackهای برنامه را با فایل‌های داکر کامپوز مستقر کنید.
-
-**مقیاس‌دهی سرویس**  
-سرویس‌ها را به صورت افقی در سراسر خوشه مقیاس دهید.
-
-**مدیریت به‌روزرسانی**  
-به‌روزرسانی‌های کنترل شده با سیاست‌های به‌روزرسانی قابل پیکربندی.
-
-**جایگذاری مبتنی بر محدودیت**  
-کنترل کنید که سرویس‌ها بر اساس برچسب‌های نود کجا اجرا شوند.
-
-### چرا پارس‌اپس برای داکر سوآرم؟
-
-- **دارای گواهی داکر**: تیم ما گواهی‌های داکر را دارد
-- **تجربه تولید**: سال‌ها اجرای سوآرم در محیط تولید
-- **بهترین روش‌ها**: ما از روش‌های توصیه شده داکر پیروی می‌کنیم
-- **پشتیبانی کامل**: از راه‌اندازی تا مدیریت مستمر
-- **مسیر مهاجرت**: مسیر مشخص به کوبرنتیس در صورت نیاز
-
-### شروع کار
-
-آماده مستقر کردن برنامه‌های خود بر روی داکر سوآرم هستید؟ چه تازه شروع می‌کنید و چه در حال مهاجرت استقرارهای داکر موجود هستید، تیم ما می‌تواند کمک کند. برای بحث در مورد نیازهای اورکستراسیون کانتینر خود با ما تماس بگیرید.
-
----
-
-*پارس آپس ، همراه شما در تمامی مراحل*```
-</code></pre>
   
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/docker/">Docker</a></li>
+        <li><a href="/tags/swarm/">Swarm</a></li>
+        <li><a href="/tags/container/">Container</a></li>
+        <li><a href="/tags/orchestration/">Orchestration</a></li>
+    </ul>
+  </div>
 
 
   </main>
   <footer>
-    <p>Copyright 2025. All rights reserved.</p>
+    <p>© 2025 ParsOps. Built with love by ParsOps team. All rights reserved.</p>
 
   </footer>
 </body>

@@ -144,3 +144,36 @@ other = "https://forms.gle/R6CdD7f7gdK1kWcQ6"
 
 [copyright]
 other = "© 2025 ParsOps. Mit Liebe vom ParsOps-Team erstellt."
+
+[footer_tagline]
+other = "Das Backend, dem Sie vertrauen können."
+
+[testimonial1_text]
+other = "ParsOps hat unsere Infrastruktur von einem Wartungsalbtraum in ein optimiertes, automatisiertes System verwandelt. Ihre Expertise in Kubernetes und Cloud-Native-Technologien ist unübertroffen."
+
+[testimonial1_name]
+other = "Sarah Chen"
+
+[testimonial1_title]
+other = "CTO, TechVision Inc"
+
+[testimonial2_text]
+other = "Die Sicherheit und Isolation, die sie in unsere Multi-Tenant-Plattform eingebaut haben, gaben uns das Vertrauen, schnell zu skalieren. ParsOps implementiert nicht nur—sie entwerfen für die Zukunft."
+
+[testimonial2_name]
+other = "Michael Rodriguez"
+
+[testimonial2_title]
+other = "VP Engineering, CloudScale"
+
+[testimonial3_text]
+other = "Unsere Deployment-Zeit ging von Tagen auf Minuten zurück. Die CI/CD-Pipelines, die ParsOps gebaut hat, sind unglaublich zuverlässig, und ihre Überwachungseinrichtung gibt uns vollständige Transparenz."
+
+[testimonial3_name]
+other = "David Park"
+
+[testimonial3_title]
+other = "Lead DevOps, DataStream Analytics"
+
+[all_rights_reserved]
+other = "Alle Rechte vorbehalten."

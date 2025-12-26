@@ -16,7 +16,7 @@
         <div class="container">
             <div class="nav-content">
                 <div class="nav-logo">
-                    <img src="{{ "logo.png" | relURL }}" alt="ParsOps" style="height: 40px; width: auto;">
+                    <img src="{{ "logo.png" | relURL }}" alt="{{ .Site.Title }}">
                 </div>
                 <div class="nav-menu">
                     <a href="#services">{{ i18n "services" }}</a>
@@ -340,13 +340,12 @@
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <p class="testimonial-text">
-                                "ParsOps transformed our infrastructure from a maintenance nightmare into a streamlined, 
-                                automated system. Their expertise in Kubernetes and cloud-native technologies is unmatched."
+                                "{{ i18n "testimonial1_text" }}"
                             </p>
                             <div class="testimonial-author">
                                 <div class="author-info">
-                                    <h4 class="author-name">Sarah Chen</h4>
-                                    <p class="author-title">CTO, TechVision Inc</p>
+                                    <h4 class="author-name">{{ i18n "testimonial1_name" }}</h4>
+                                    <p class="author-title">{{ i18n "testimonial1_title" }}</p>
                                 </div>
                             </div>
                         </div>
@@ -355,13 +354,12 @@
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <p class="testimonial-text">
-                                "The security and isolation they built into our multi-tenant platform gave us the confidence 
-                                to scale rapidly. ParsOps doesn't just implement—they architect for the future."
+                                "{{ i18n "testimonial2_text" }}"
                             </p>
                             <div class="testimonial-author">
                                 <div class="author-info">
-                                    <h4 class="author-name">Michael Rodriguez</h4>
-                                    <p class="author-title">VP Engineering, CloudScale</p>
+                                    <h4 class="author-name">{{ i18n "testimonial2_name" }}</h4>
+                                    <p class="author-title">{{ i18n "testimonial2_title" }}</p>
                                 </div>
                             </div>
                         </div>
@@ -370,13 +368,12 @@
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <p class="testimonial-text">
-                                "Our deployment time went from days to minutes. The CI/CD pipelines ParsOps built are 
-                                incredibly reliable, and their monitoring setup gives us complete visibility."
+                                "{{ i18n "testimonial3_text" }}"
                             </p>
                             <div class="testimonial-author">
                                 <div class="author-info">
-                                    <h4 class="author-name">David Park</h4>
-                                    <p class="author-title">Lead DevOps, DataStream Analytics</p>
+                                    <h4 class="author-name">{{ i18n "testimonial3_name" }}</h4>
+                                    <p class="author-title">{{ i18n "testimonial3_title" }}</p>
                                 </div>
                             </div>
                         </div>
@@ -420,9 +417,9 @@
             <div class="footer-content">
                 <div class="footer-column">
                     <div class="footer-logo">
-                        <img src="{{ "logo.png" | relURL }}" alt="ParsOps" style="height: 40px; width: auto;">
+                        <img src="{{ "logo.png" | relURL }}" alt="{{ .Site.Title }}">
                     </div>
-                    <p class="footer-tagline">The backbone you can trust.</p>
+                    <p class="footer-tagline">{{ i18n "footer_tagline" }}</p>
                 </div>
                 <div class="footer-column">
                     <h4 class="footer-title">{{ i18n "services" }}</h4>

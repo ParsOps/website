@@ -1,15 +1,15 @@
 baseURL = 'https://parsops.com/'
-defaultContentLanguage = 'fa'
+defaultContentLanguage = 'en'
 theme = 'parsops'
 
 [languages]
   [languages.en]
     contentDir = 'content/en'
-    disabled = true
+    disabled = false
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'ParsOps — The backbone you can trust.'
+    title = 'ParsOps — DevOps as a Service. Simplified.'
     weight = 1
 
   [languages.fa]
@@ -18,14 +18,14 @@ theme = 'parsops'
     languageCode = 'fa-IR'
     languageDirection = 'rtl'
     languageName = 'فارسی'
-    title = 'پارس‌آپس — پشت صحنه‌ای که می‌شود به آن اعتماد کرد'
-    weight = 1
+    title = 'پارس‌آپس — دواپس به‌عنوان سرویس. ساده‌شده.'
+    weight = 2
 
   [languages.de]
     contentDir = 'content/de'
-    disabled = true
+    disabled = false
     languageCode = 'de-DE'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
-    title = 'ParsOps — Das Backend, dem Sie vertrauen können'
+    title = 'ParsOps — DevOps als Service. Vereinfacht.'
     weight = 3

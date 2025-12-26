@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/fa/tags/dbaas/</loc>
+    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/dbaas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/tags/dbaas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/tags/dbaas/"
+                />
+  </url><url>
     <loc>http://localhost:1313/fa/tags/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -20,68 +38,29 @@
                 href="http://localhost:1313/fa/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fa/tags/%D8%A2%D8%A8%DB%8C/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/fa/tags/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D8%AF%D8%A7%D8%AF%D9%87/</loc>
+    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fa/tags/%D8%B3%D8%A8%D8%B2/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/fa/tags/%D9%82%D8%B1%D9%85%D8%B2/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/fa/posts/post-3/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/fa/database-as-a-service/</loc>
+    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/posts/post-3/"
+                href="http://localhost:1313/database-as-a-service/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="http://localhost:1313/de/posts/post-3/"
+                href="http://localhost:1313/de/database-as-a-service/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa-IR"
-                href="http://localhost:1313/fa/posts/post-3/"
+                href="http://localhost:1313/fa/database-as-a-service/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fa/posts/post-2/</loc>
-    <lastmod>2023-02-15T10:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/post-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="http://localhost:1313/de/posts/post-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa-IR"
-                href="http://localhost:1313/fa/posts/post-2/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fa/posts/post-1/</loc>
-    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/post-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="http://localhost:1313/de/posts/post-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa-IR"
-                href="http://localhost:1313/fa/posts/post-1/"
-                />
+    <loc>http://localhost:1313/fa/tags/%D8%AF%D8%A7%D8%AF%D9%87/</loc>
+    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/fa/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
@@ -117,6 +96,142 @@
                 rel="alternate"
                 hreflang="fa-IR"
                 href="http://localhost:1313/fa/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/contact-us/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/contact-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/contact-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/contact-us/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/devops-as-a-service/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/devops-as-a-service/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/devops-as-a-service/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/devops-as-a-service/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/docker-swarm/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/docker-swarm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/docker-swarm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/docker-swarm/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/hybrid-cloud/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/hybrid-cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/hybrid-cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/hybrid-cloud/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/infrastructure-design/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/infrastructure-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/infrastructure-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/infrastructure-design/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/kubernetes-cluster/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/kubernetes-cluster/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/kubernetes-cluster/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/kubernetes-cluster/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/managed-servers/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/managed-servers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/managed-servers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/managed-servers/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/object-storage/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/object-storage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/object-storage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa-IR"
+                href="http://localhost:1313/fa/object-storage/"
                 />
   </url><url>
     <loc>http://localhost:1313/fa/categories/</loc>

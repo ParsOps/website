@@ -1,44 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/tags/dbaas/</loc>
-    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D8%AF%D8%A7%D8%AF%D9%87/</loc>
-    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/database-as-a-service/</loc>
-    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%D8%AF%D8%A7%D8%AF%D9%87/</loc>
-    <lastmod>2024-01-01T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/contact-us/</loc>
-  </url><url>
-    <loc>http://localhost:1313/devops-as-a-service/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docker-swarm/</loc>
-  </url><url>
-    <loc>http://localhost:1313/hybrid-cloud/</loc>
-  </url><url>
-    <loc>http://localhost:1313/infrastructure-design/</loc>
-  </url><url>
-    <loc>http://localhost:1313/kubernetes-cluster/</loc>
-  </url><url>
-    <loc>http://localhost:1313/managed-servers/</loc>
-  </url><url>
-    <loc>http://localhost:1313/object-storage/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    
+      <lastmod>2024-01-01T09:00:00-07:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/fa/sitemap.xml</loc>
+    
+      <lastmod>2024-01-01T09:00:00-07:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/de/sitemap.xml</loc>
+    
+      <lastmod>2024-01-01T09:00:00-07:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
