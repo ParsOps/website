@@ -26,13 +26,16 @@ export const stats = [
   { value: '24/7', label: 'پایش و پشتیبانی مستمر' },
 ];
 
-export const techKeywords = [
-  'CI/CD',
-  'Infrastructure as Code',
-  'GitOps',
-  'Kubernetes',
-  'Observability',
-  'FinOps',
-  'Security',
-  'SecOps',
+export const partners = [
+  'دیجی کالا',
+  'هفهشتاد',
+  'اینفوتک',
+  'فیدیبو',
+  'کارگزاری آگاه',
+  'کارگزاری حافظ',
+  'ارکید فارمد',
+  'ستون',
+  'افرانت',
+  'پارس تلکام',
+  'بانی مد',
 ];
