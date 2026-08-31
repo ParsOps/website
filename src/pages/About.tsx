@@ -5,6 +5,7 @@ import { PageHero } from '@/components/ui/PageHero';
 import { Reveal } from '@/components/ui/Reveal';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { stats } from '@/data/site';
+import { team } from '@/data/team';
 
 const values = [
   {
@@ -115,6 +116,38 @@ export default function About() {
               </Reveal>
             ))}
           </dl>
+        </Container>
+      </section>
+
+      <section className="bg-paper py-20 sm:py-24">
+        <Container>
+          <SectionHeading
+            eyebrow="تیم ما"
+            title="ما که هستیم"
+            description="پارس‌آپس را مهندسانی می‌سازند که هم محصول و زیرساخت می‌سازند، و هم جامعهٔ فنی دواپس را همراهی می‌کنند."
+            align="center"
+            className="mx-auto"
+          />
+          <div className="mx-auto mt-12 grid max-w-3xl gap-5 sm:grid-cols-2">
+            {team.map((member, index) => (
+              <Reveal key={member.name} delay={index * 90}>
+                <article className="flex h-full flex-col rounded-lg border border-slate-200/70 bg-white p-6 shadow-card">
+                  <span
+                    className="grid size-11 place-items-center rounded-md bg-trust-50 text-sm font-bold tracking-wide text-trust-600"
+                    aria-hidden="true"
+                  >
+                    {member.initials}
+                  </span>
+                  <h3 className="mt-4 text-base font-semibold text-ink-900">
+                    {member.name}
+                  </h3>
+                  <p className="mt-2 text-sm leading-7 text-slate-500">
+                    {member.role}
+                  </p>
+                </article>
+              </Reveal>
+            ))}
+          </div>
         </Container>
       </section>
 

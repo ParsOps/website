@@ -3,6 +3,7 @@ import TrustBar from '@/components/home/TrustBar';
 import ServicesSection from '@/components/home/ServicesSection';
 import WhyUs from '@/components/home/WhyUs';
 import ProcessSection from '@/components/home/ProcessSection';
+import BuiltBySection from '@/components/home/BuiltBySection';
 import CtaSection from '@/components/ui/CtaSection';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <ServicesSection />
       <WhyUs />
       <ProcessSection />
+      <BuiltBySection />
       <CtaSection />
     </>
   );
