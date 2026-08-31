@@ -36,7 +36,7 @@ export default function CtaSection() {
             className="border-white/20 text-white hover:border-white/40 hover:bg-white/5"
           >
             <Phone className="size-4" aria-hidden="true" />
-            {site.phone}
+            <span className="phone-number">{site.phone}</span>
           </Button>
         </div>
       </Container>

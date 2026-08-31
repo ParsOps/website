@@ -16,7 +16,7 @@ const socials = [
 
 const contactRows = [
   { label: 'ایمیل', value: site.email, Icon: Mail },
-  { label: 'تلفن', value: site.phone, Icon: Phone },
+  { label: 'تلفن', value: site.phone, Icon: Phone, valueClassName: 'phone-number' },
   { label: 'نشانی', value: site.location, Icon: MapPin },
   { label: 'مشاوره', value: site.consultingHours, Icon: Clock },
   { label: 'پشتیبانی فنی', value: site.supportHours, Icon: Headset },
@@ -85,7 +85,7 @@ export default function Footer() {
           <div className="lg:col-span-3">
             <h3 className="text-sm font-bold text-white">تماس با ما</h3>
             <ul className="mt-5 space-y-4">
-              {contactRows.map(({ label, value, Icon }) => (
+              {contactRows.map(({ label, value, Icon, valueClassName }) => (
                 <li key={label} className="flex items-start gap-3">
                   <Icon
                     className="mt-0.5 size-4 shrink-0 text-trust-300"
@@ -93,7 +93,11 @@ export default function Footer() {
                   />
                   <span className="text-sm text-slate-400">
                     <span className="block text-xs text-slate-500">{label}</span>
-                    {value}
+                    {valueClassName ? (
+                      <span className={valueClassName}>{value}</span>
+                    ) : (
+                      value
+                    )}
                   </span>
                 </li>
               ))}
@@ -103,11 +107,24 @@ export default function Footer() {
       </Container>
 
       <div className="border-t border-white/10">
-        <Container className="flex flex-col items-center justify-between gap-2 py-5 text-xs text-slate-500 sm:flex-row">
+        <Container className="flex flex-col items-center gap-2 py-5 text-xs text-slate-500">
+          <div className="flex w-full flex-col items-center justify-between gap-2 sm:flex-row">
+            <p>
+              © 2026 پارس‌آپس — تمامی حقوق محفوظ است.
+            </p>
+            <p>{site.tagline}</p>
+          </div>
           <p>
-            © 2026 پارس‌آپس — تمامی حقوق محفوظ است.
+            طراحی و توسعه توسط{' '}
+            <a
+              href="https://otsi.ir"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-trust-300"
+            >
+              Otsi
+            </a>
           </p>
-          <p>{site.tagline}</p>
         </Container>
       </div>
     </footer>

@@ -95,6 +95,12 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* Left-to-right display for phone numbers in RTL layout */
+@utility phone-number {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

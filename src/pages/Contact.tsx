@@ -9,7 +9,7 @@ import { site } from '@/data/site';
 
 const contactCards = [
   { label: 'ایمیل', value: site.email, Icon: Mail },
-  { label: 'تلفن', value: site.phone, Icon: Phone },
+  { label: 'تلفن', value: site.phone, Icon: Phone, valueClassName: 'phone-number' },
   { label: 'نشانی', value: site.location, Icon: MapPin },
   { label: 'مشاوره', value: site.consultingHours, Icon: Clock },
   { label: 'پشتیبانی فنی', value: site.supportHours, Icon: Headset },
@@ -51,7 +51,7 @@ export default function Contact() {
 
             <Reveal delay={120} className="lg:col-span-2">
               <div className="flex h-full flex-col gap-5">
-                {contactCards.map(({ label, value, Icon }) => (
+                {contactCards.map(({ label, value, Icon, valueClassName }) => (
                   <div
                     key={label}
                     className="flex items-start gap-4 rounded-lg border border-slate-200/70 bg-white p-5 shadow-card"
@@ -61,7 +61,10 @@ export default function Contact() {
                     </span>
                     <div>
                       <h2 className="text-sm font-semibold text-ink-900">{label}</h2>
-                      <p className="mt-1 text-sm text-slate-500" dir="auto">
+                      <p
+                        className={`mt-1 text-sm text-slate-500${valueClassName ? ` ${valueClassName}` : ''}`}
+                        dir={valueClassName ? undefined : 'auto'}
+                      >
                         {value}
                       </p>
                     </div>
