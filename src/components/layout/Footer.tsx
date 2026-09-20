@@ -48,6 +48,20 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+            <a
+              href="https://trustseal.enamad.ir/?id=5483518&code=ndW7n425rNd5Hq6TklfRl3fe0UVFR9Rq"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="مشاهده نماد اعتماد الکترونیکی"
+              className="mt-6 inline-block rounded-md transition-opacity hover:opacity-80"
+            >
+              <img
+                src="https://reg2.enamad.ir/rc/outResource/dist/img/logopng/110.png"
+                alt="نماد اعتماد الکترونیکی"
+                loading="lazy"
+                className="h-auto w-[110px]"
+              />
+            </a>
           </div>
 
           <nav className="lg:col-span-3" aria-label="خدمات">
